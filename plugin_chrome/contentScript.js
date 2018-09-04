@@ -30,17 +30,6 @@ function registerEditables() {
   }
 }
 
-function textBoxFocusIn(e) {
-  composeBox = e.target
-  console.log(activebox)
-}
-
-function textBoxFocusOut(e) {
-  clearRecommendation()
-  activebox = null
-}
-
-
 function textBoxModified(e) {
 
 }

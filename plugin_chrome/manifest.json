@@ -1,0 +1,18 @@
+{
+  "name": "Word counter",
+  "description" : "True AI - word counter",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
